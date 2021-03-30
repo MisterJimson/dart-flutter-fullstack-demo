@@ -15,11 +15,10 @@
 import 'dart:math';
 
 import 'package:functions_framework/functions_framework.dart';
-
-import 'api_types.dart';
+import 'package:shared/api_types.dart';
 
 // Export api_types so builder can use them when generating `bin/server.dart`.
-export 'api_types.dart';
+export 'package:shared/api_types.dart';
 
 @CloudFunction()
 GreetingResponse function(GreetingRequest request) {

@@ -16,8 +16,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-
-import 'api_types.dart';
+import 'package:shared/api_types.dart';
 
 class Greeting {
   late Uri _uri;
